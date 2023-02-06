@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+  
+  .team-area {
+    max-width: 1000px;
+    margin: 3em auto;
+    flex-wrap: wrap;
+  }
+  
+  .manager-card{
+    
+      margin: 3em;
+      max-width: 260px;
+      width: 80%;
+      min-height: 22rem;
+      background-color: rgb(23, 204, 23);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+     
+    }
+  .employee-card {
+    margin: 3em;
+    max-width: 260px;
+    width: 80%;
+    min-height: 22rem;
+    background-color: rgb(28, 28, 240);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+   
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f6f7f8;
+  }
+  
+  .list-group-item {
+    color: #000000;
+    text-decoration: none;
+  }

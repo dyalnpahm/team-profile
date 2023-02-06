@@ -1,0 +1,22 @@
+{
+  "name": "team-profile",
+  "version": "1.0.0",
+  "description": "team-profile-generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyalnpahm/team-profile.git"
+  },
+  "author": "dyalnpahm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyalnpahm/team-profile/issues"
+  },
+  "homepage": "https://github.com/dyalnpahm/team-profile#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
