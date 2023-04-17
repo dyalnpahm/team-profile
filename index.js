@@ -147,10 +147,10 @@ const teamEmployees = () => {
   type: 'input',
   name: 'school',
   message: "Enter the intern's school",
-  when: (schoolInput) => schoolInput.role === 'Intern',
-  validate: schoolInput  => {
-    if (schoolInput){
-      return false; 
+  when: (Input) => Input.role === 'Intern',
+  validate: Input  => {
+    if (Input){
+      return true; 
       
     } else {
       console.log ("Enter the intern's school")
