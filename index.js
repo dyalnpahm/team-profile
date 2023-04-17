@@ -205,3 +205,16 @@ const writeFile = data => {
       }
   })
 }; 
+teamManager()
+.then(teamEmployees)
+.then(newTeam => {
+  return TemplateHTML(newTeam);
+
+})
+.then(HTML => {
+  return writeFile(HTML);
+
+})
+.catch (err => {
+  console.log(err);
+});
