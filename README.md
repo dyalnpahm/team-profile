@@ -8,14 +8,22 @@ I learnt how to use node.js, how to use inquierer and jest.
 
 ## Installation
 
-To use this application, the user must clone the respository from github as well as download Node in order to use the profile generator.
-This application also requires the use of the inquierer module.
+To install this app clone the repo, then install all devDependencies by entering npm i into the terminal.
 
 ## Usage
+To use this application, open a terminal and enter node index.js to start. The prompts will then appear, enter the team manager's name and details, followed by the employees information. 
+After entering all the employees into the generator, go to dist and open live server to few the team! 
+This is shown below.
 
-![alt text](assets/images/team-profile.png)
+![Alt text](./assets/images/team-profile.gif)
 
+https://drive.google.com/file/d/1qFA2C_Md6K4oJ5zrtU532QRnJcBSroCy/view
 
 ## Licence
 
 MIT
+
+## Badges
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+
