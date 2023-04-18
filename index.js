@@ -208,7 +208,7 @@ const writeFile = data => {
 teamManager()
 .then(teamEmployees)
 .then(newTeam => {
-  return TemplateHTML(newTeam);
+  return generateTeam(newTeam);
 
 })
 .then(HTML => {
